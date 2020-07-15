@@ -1,0 +1,22 @@
+{% extends "_layout.html" %}
+
+{% block content -%}
+<section class="product">
+  <div class="grid">
+    <div class="head row">
+      <h1 class="logo">
+        <img class="logo-mark" width="46" height="46" src="{{ get_url(path='img/eloquentlog-logo-72x72.png') }}" alt="Eloquentlog" />
+        <span class="logo-type">Eloquentlog</span>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="column-8 column-l-16">
+        <p class="description">
+          An activity log processing service to get profound motivation by each other.<br/>
+          It's actively <a href="https://gitlab.com/eloquentlog">under development</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{%- endblock content -%}

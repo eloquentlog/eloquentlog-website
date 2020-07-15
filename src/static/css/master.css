@@ -1,0 +1,52 @@
+body {
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  zoom: 100%;
+}
+
+header,
+footer {
+  margin-left: 0.18rem;
+}
+
+header {
+  padding-left: 0.39rem;
+}
+
+footer {
+  margin-top: 2.98rem;
+  padding-left: 0.71rem;
+}
+
+.wrapper section {
+  padding: 0.72rem 1.21rem;
+}
+
+p {
+  font-family: 'Roboto Slab', sans;
+  line-height: 1.36em;
+}
+
+del > a {
+  text-decoration: line-through;
+}
+
+a[target="_blank"]:hover {
+  text-decoration-style: wavy;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.logo .logo-type {
+  display: inline-block;
+  margin-top: -1.802rem;
+  vertical-align: middle;
+}

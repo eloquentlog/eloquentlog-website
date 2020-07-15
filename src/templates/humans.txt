@@ -1,0 +1,9 @@
+/* TEAM */
+Name: Yasuhiro Asaka
+Role: Programmer
+Mail: yasuhiro.asaka@lupine-software.com
+
+/* SITE */
+Last update: 2020/07/15
+Language: English
+Doctype: HTML5

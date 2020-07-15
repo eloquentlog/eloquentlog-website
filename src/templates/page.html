@@ -1,0 +1,10 @@
+{% extends "_layout.html" %}
+
+{% block content -%}
+<article>
+  <header></header>
+  <section>
+    {{ page.content | safe }}
+  </section>
+</article>
+{%- endblock content -%}
