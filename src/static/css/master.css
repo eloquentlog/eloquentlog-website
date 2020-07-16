@@ -22,7 +22,8 @@ footer {
   padding: 0.72rem 1.21rem;
 }
 
-p {
+p,
+ul {
   font-family: 'Roboto Slab', sans;
   line-height: 1.36em;
 }
@@ -43,6 +44,66 @@ h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+}
+
+h2 {
+  font-size: 1.38em;
+  border-bottom: 1px dashed darkgray;
+  max-width: 18rem;
+  margin-bottom: 1.21rem;
+}
+
+h3 {
+  font-size: 1.192em;
+  border-bottom: 1px solid #e6e6e6;
+  max-width: 13rem;
+  margin-top: 1.61rem;
+}
+
+h4 {
+  font-size: 0.992em;
+  max-width: 9rem;
+  margin: 0 0;
+}
+
+h3 span {
+  display: inline-block;
+  margin-left: 0.45rem;
+  font-size: 0.86rem;
+  color: gray;
+}
+
+.check {
+  font-family: monospace;
+  font-weight: bold;
+  color: green;
+}
+
+.screenshot {
+  margin: 2.62rem 0;
+}
+
+.screenshot img {
+  display: block;
+  margin: 0 0 0.12rem 0;
+}
+
+.screenshot img:hover {
+  opacity: 0.8;
+}
+
+.screenshot span.caption {
+  font-family: monospace;
+  font-size: 0.88rem;
+  color: gray;
+}
+
+.stage {
+  margin-top: 2.81rem;
+}
+
+.roadmap {
+  margin: 3.3rem 0;
 }
 
 .logo .logo-type {
