@@ -114,6 +114,6 @@ release:
     - gsutil iam ch allUsers:objectViewer gs://$GCP_CLOUD_STORAGE_BUCKET_NAME
     - gsutil web set -m index.html gs://$GCP_CLOUD_STORAGE_BUCKET_NAME
   only:
-    - release@eloquentlog/eloquentlog-web-console
-    - tags@eloquentlog/eloquentlog-web-console
+    - release@eloquentlog/eloquentlog-website
+    - tags@eloquentlog/eloquentlog-website
 # }}}
