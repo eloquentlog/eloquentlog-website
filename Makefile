@@ -5,10 +5,10 @@ setup:
 
 build:
 	@$(ZOLA) --root src --config ./src/config.toml \
-		build -o ./public
+		build -o ./dst
 
 serve:
 	@cd src; \
-		../$(ZOLA) serve --output-dir ../public --port 3000
+		../$(ZOLA) serve --output-dir ../dst --port 3000
 
-.PHONY: build serve
+.PHONY: build serve setup
