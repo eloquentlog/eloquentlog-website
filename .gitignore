@@ -1,4 +1,4 @@
 /public
 
-/tool/*
-!/tool/setup-zola
+/.tool/*
+!/.tool/setup-zola
