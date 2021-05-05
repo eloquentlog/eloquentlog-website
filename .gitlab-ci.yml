@@ -99,7 +99,7 @@ release:
   cache:
     untracked: true
     key:
-      prefix: prefix: "${CI_PROJECT_NAME}-cache-${CLOUD_SDK_CHECKSUM}"
+      prefix: "${CI_PROJECT_NAME}-cache-${CLOUD_SDK_CHECKSUM}"
     paths:
       - .sqlite
       - .cloud-sdk
