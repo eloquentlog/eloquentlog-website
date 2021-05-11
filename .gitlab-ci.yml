@@ -68,7 +68,7 @@ make:
       - dst
     expire_in: 3 days
   only:
-    - release@eloquentlog/eloquentlog-website
+    - trunk
     - tags@eloquentlog/eloquentlog-website
 # }}}
 
@@ -102,6 +102,5 @@ release:
       - .sqlite
       - .cloud-sdk
   only:
-    - release@eloquentlog/eloquentlog-website
     - tags@eloquentlog/eloquentlog-website
 # }}}
