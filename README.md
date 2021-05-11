@@ -15,7 +15,7 @@ https://eloquentlog.com/
 This project is distributed under multiple licenses.
 
 ```txt
-Copyright (c) 2020 Lupine Software LLC
+Copyright (c) 2020-2021 Lupine Software LLC
 ```
 
 ### Texts and resources
