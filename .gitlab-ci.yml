@@ -98,8 +98,6 @@ release:
     - gsutil web set -m index.html gs://$GCP_CLOUD_STORAGE_BUCKET_NAME
   cache:
     untracked: true
-    key:
-      prefix: "${CI_PROJECT_NAME}-cache-${CLOUD_SDK_CHECKSUM}"
     paths:
       - .sqlite
       - .cloud-sdk
