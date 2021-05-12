@@ -16,38 +16,84 @@
           It's fully open source, and actively on <a href="https://gitlab.com/eloquentlog">GitLab.com</a>.
         </p>
         <p>The repositories are mirrored also on <a href="https://github.com/eloquentlog">GitHub</a>.</p>
+        <p>
+          <a href="https://gitlab.com/eloquentlog/eloquentlog/tree/trunk"><img src="https://img.shields.io/badge/Status-Alpha-yellow.svg" alt="status" /></a>
+          <a rel="nofollow" href="https://eloquentlog.zulipchat.com/"><img src="https://img.shields.io/badge/Chat-Join_Zulip-4ebfac.svg" alt="project chat" /></a>
+        </p>
 
-        <div class="screenshot">
-          <h2>Screenshot</h2>
+        <div class="screenshots">
+          <h2>Screenshots</h2>
           <a rel="nofollow" href="{{ get_url(path='img/eloquentlog-web-console-20200715.png') }}"><img class="screenshot" height="180" src="{{ get_url(path='img/eloquentlog-web-console-20200715.png') }}" alt="Screenshot (20200715)" /></a>
-          <span class="caption">with dark mode support ;)</span>
+          <span class="caption">...dark mode support ;)</span>
         </div>
+
+        <div class="repositories">
+        <h2>Repositories</h2>
+        <ul>
+          <li>
+            <a href="https://gitlab.com/eloquentlog/eloquentlog-console-api">Eloquentlog Console API</a>
+            ...
+            <span class="tag">Rust</span>
+            <span class="tag">Rocket</span>
+            <span class="tag">Diesel</span>
+          </li>
+          <li>
+            <a href="https://gitlab.com/eloquentlog/eloquentlog-web-console">Eloquentlog Web Console</a>
+            ...
+            <span class="tag">Typescript</span>
+            <span class="tag">Stylus</span>
+            <span class="tag">Rollup</span>
+            <span class="tag">Inferno</span>
+          </li>
+          <li>
+            <a href="https://gitlab.com/eloquentlog/eloquentlog-cli">Eloquentlog CLI</a>
+            ...
+            <span class="tag">Rust</span>
+          </li>
+          <li>
+            <a href="https://gitlab.com/eloquentlog/eloquentlog-desktop-gtk">Eloquentlog Desktop GTK</a>
+            ...
+            <span class="tag">Rust</span>
+            <span class="tag">GTK</span>
+          </li>
+          <li>
+            <a href="https://gitlab.com/eloquentlog/eloquentlog">Eloquentlog</a>
+            ...
+            <span class="tag">Docker</span>
+            <span class="tag">Docker Compose</span>
+            <span class="tag">Docker Swarm</span>
+          </li>
+          <li>
+            <a href="https://gitlab.com/eloquentlog/eloquentlog-website">Eloquentlog Website</a>
+            ...
+            <span class="tag">Zola</span>
+          </li>
+        </ul>
+        <div>
 
         <div class="roadmap">
           <h2>Roadmap</h2>
-          <a href="https://gitlab.com/eloquentlog/eloquentlog/tree/master"><img src="https://img.shields.io/badge/Status-Alpha-yellow.svg" alt="status" /></a>
-          <a rel="nofollow" href="https://eloquentlog.zulipchat.com/"><img src="https://img.shields.io/badge/Chat-Join_Zulip-4ebfac.svg" alt="project chat" /></a>
           <div class="stage">
-            <h3>Alpha<span class="version">..v0.0.1</span></h3>
-            <h4>Goal</h4>
+            <h3>Alpha<span class="version">..&nbsp;v0.0.1</span></h3>
+            <h4>Goals</h4>
             <ul class="goal">
               <li>To make core service concept clear</li>
               <li>To create sustainable development cycle towards to the initial Beta</li>
             </ul>
             <h4>Milestones</h4>
             <ul class="alpha">
-              <li><span class="check">√</span>Foundational authentication mechanism</li>
-              <li><span class="check">√</span>Basic web UI components</li>
-              <li><span class="check">√</span>Account management interface</li>
-              <li><span class="check">√</span>Create a public staging environment for APIs and web console ー <a href="https://web.eloquentlog.com/" rel="nofollow">web.eloquentlog.com</a></li>
-              <li><span class="check">√</span>Automated deployment</li>
+              <li><span class="check">√</span><del>Foundational authentication mechanism</del></li>
+              <li><span class="check">√</span><del>Basic web UI components</del></li>
+              <li><span class="check">√</span><del>Account management interface</del></li>
+              <li><span class="check">√</span><del>Create a public staging environment for APIs and web console</del> ー <a href="https://web.eloquentlog.com/" rel="nofollow">web.eloquentlog.com</a></li>
+              <li><span class="check">√</span><del>Automated deployment</del></li>
               <li>Basic logging (ingestion) interface</li>
               <li>Experimental CLI client application</li>
             </ul>
           </div>
           <div class="stage">
-            <h3>Beta<span>..v0.1.0</span></h3>
-            <h4>Goal</h4>
+            <h3>Beta<span>v0.0.1&nbsp;..&nbsp;v0.1.0</span></h3>
+            <h4>Goals</h4>
             <ul class="goal">
               <li>To get initial public beta users also besides friends</li>
               <li>Make it scalable web service</li>
@@ -61,8 +107,8 @@
             </ul>
           </div>
           <div class="stage">
-            <h3>Public release<span>..v1.0.0</span></h3>
-            <h4>Goal</h4>
+            <h3>Public release<span>v0.1.0&nbsp;..&nbsp;v1.0.0</span></h3>
+            <h4>Goals</h4>
             <ul class="goal">
               <li>To have active daily users</li>
             </ul>

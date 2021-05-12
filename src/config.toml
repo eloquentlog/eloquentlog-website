@@ -1,4 +1,5 @@
-base_url = "https://eloquentlog.com"
+# base_url = "https://eloquentlog.com"
+base_url = "."
 title = "Eloquentlog"
 
 default_language = "en"

@@ -18,6 +18,12 @@ footer {
   padding-left: 0.71rem;
 }
 
+footer a {
+  display: inline-block;
+  margin-left: 0.36rem;
+  font-size: 97%;
+}
+
 .wrapper section {
   padding: 0.72rem 1.21rem;
 }
@@ -46,6 +52,10 @@ h6 {
   font-weight: normal;
 }
 
+.description {
+  margin-left: 0.12rem;
+}
+
 h2 {
   font-size: 1.38em;
   border-bottom: 1px dashed darkgray;
@@ -56,8 +66,8 @@ h2 {
 h3 {
   font-size: 1.192em;
   border-bottom: 1px solid #e6e6e6;
-  max-width: 13rem;
-  margin-top: 1.61rem;
+  max-width: 19rem;
+  margin-top: 1.81rem;
 }
 
 h4 {
@@ -68,34 +78,57 @@ h4 {
 
 h3 span {
   display: inline-block;
-  margin-left: 0.45rem;
+  margin-left: 0.65rem;
   font-size: 0.86rem;
   color: gray;
 }
 
 .check {
+  display: inline-block;
+  margin: 0 0.43rem 0 0;
+  padding: 0;
+  color: green;
   font-family: monospace;
   font-weight: bold;
-  color: green;
+  font-size: 110%;
 }
 
-.screenshot {
+li del {
+  color: gray;
+}
+
+.screenshots {
   margin: 2.62rem 0;
 }
 
-.screenshot img {
+.screenshots img {
   display: block;
   margin: 0 0 0.12rem 0;
 }
 
-.screenshot img:hover {
+.screenshots img:hover {
   opacity: 0.8;
 }
 
-.screenshot span.caption {
+.screenshots span.caption {
   font-family: monospace;
   font-size: 0.88rem;
   color: gray;
+}
+
+.repositories li {
+  line-height: 1.43em;
+}
+
+.repositories li .tag {
+  line-height: 1.43em;
+  display: inline-block;
+  margin: 0 0 0 0.18rem;
+  background-color: #f3f3f3;
+  border-radius: 0.21rem;
+  padding: 0 0.26rem;
+  color: #666666;
+  font-size: 72%;
 }
 
 .stage {
@@ -106,8 +139,13 @@ h3 span {
   margin: 3.3rem 0;
 }
 
+.logo {
+  margin-left: -0.64rem;
+}
+
 .logo .logo-type {
   display: inline-block;
   margin-top: -1.802rem;
+  margin-left: 0.19rem;
   vertical-align: middle;
 }
