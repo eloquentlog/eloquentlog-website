@@ -1,5 +1,15 @@
 # Eloquentlog Website
 
+[![pipeline status][pipeline]][ci]
+
+```text
+Eloquentlog
+
+╦ ╦┌─┐┌┐ ┌─┐┬┌┬┐┌─┐
+║║║├┤ ├┴┐└─┐│ │ ├┤
+╚╩╝└─┘└─┘└─┘┴ ┴ └─┘
+```
+
 https://eloquentlog.com/
 
 
@@ -36,7 +46,16 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 
 ### Softwares
 
-`AGPL-3.0`
+```text
+┏━╸╻  ┏━┓┏━┓╻ ╻┏━╸┏┓╻╺┳╸╻  ┏━┓┏━╸
+┣╸ ┃  ┃ ┃┃┓┃┃ ┃┣╸ ┃┗┫ ┃ ┃  ┃ ┃┃╺┓
+┗━╸┗━╸┗━┛┗┻┛┗━┛┗━╸╹ ╹ ╹ ┗━╸┗━┛┗━┛
+
+Website
+Copyright (c) 2019-2021 Lupine Software LLC
+```
+
+`AGPL-3.0-or-later`
 
 ```txt
 This is free software: You can redistribute it and/or modify
@@ -53,4 +72,5 @@ You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
-See [LICENSE](LICENSE).
+[pipeline]: https://gitlab.com/eloquentlog/eloquentlog-website/badges/trunk/pipeline.svg
+[ci]: https://gitlab.com/eloquentlog/eloquentlog-website/pipelines
