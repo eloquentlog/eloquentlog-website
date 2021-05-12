@@ -43,8 +43,7 @@ stages:
       --path-update=false
       --usage-reporting=false
       --rc-path=/dev/null
-      --override-components beta cloud-build-local core
-      --quiet >$CLOUD_SDK_ARTIFACT/install.log 2>&1;
+      --quiet >$CLOUD_SDK_ARTIFACT/install.log;
     cd ../
 
 # build {{{
@@ -102,5 +101,6 @@ release:
       - .sqlite
       - .cloud-sdk
   only:
+    - trunk
     - tags@eloquentlog/eloquentlog-website
 # }}}
