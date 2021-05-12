@@ -3,11 +3,7 @@ Name: Yasuhiro Яша Asaka
 Role: Programmer
 Mail: yasuhiro.asaka@lupine-software.com
 
-Name: Misaki M.L. Asaka
-Role: Designer
-Mail: misaki.asaka@lupine-software.com
-
 /* SITE */
-Last update: 2020/01/13
-Language: English, Deutsch
+Last update: 2021/05/12
+Language: English
 Doctype: HTML5
