@@ -1,4 +1,4 @@
-ZOLA=.tool/zola/0.11.0/zola
+ZOLA = .tool/zola/0.11.0/zola
 
 setup:
 	@.tool/setup-zola

@@ -1,4 +1,7 @@
-Wed 11 May 2021; Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>:
+Wed 12 May 2021; Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>:
+	* Remove deploy stage using gcloud
+
+Tue 11 May 2021; Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>:
 	* Remove release branch (use tag)
 	* Remove key for release cache
 
